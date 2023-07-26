@@ -182,8 +182,23 @@ font-size: 20px;
 font-weight: 600;
 
   }
+  /* sponsar section start  */
+  .sponsar{
+    padding: 20px 100px;
+    text-align: center;
+  }
 
+.sponsar-tittle{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.sponsar-tittle img{
+  width: 100px;
+height: 50px;
+color:#727272; ;
 
+}
 
 
 
@@ -199,7 +214,8 @@ font-weight: 600;
     }
     .nav,
     .team-container,
-    .facts-catrd-container
+    .facts-catrd-container,
+    .sponsar-tittle
     {
      flex-direction: column;
     }
@@ -214,6 +230,10 @@ font-weight: 600;
     .facts-catrd-container, .card{
       margin-top: 20px;
     }
+    .sponsar-tittle{
+     margin-left: 50px;
+     margin-top: 20px
+        }
 
  }
 
